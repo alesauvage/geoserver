@@ -268,6 +268,7 @@ Use images at their native resolution by omitting the ``<Size>`` element.
 In contrast, for SVG graphics specifying a ``<Size>`` is recommended.
 SVG files are a vector-based format describing both shape and color,  
 so they scale cleanly to any size.
+Plese note that for proper scaling of SVG graphics, it is advised to specify ``width`` and ``height`` attributes on the outermost SVG element of the SVG document.
 
 If the path of the symbol file is relative,  
 the file is looked for under ``$GEOSERVER_DATA_DIR/styles``.  
